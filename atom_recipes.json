@@ -1,0 +1,645 @@
+{
+    "hydrogen": {
+        "name": "Hydrogen",
+        "protons": 1,
+        "neutrons": 0,
+        "electrons": 1,
+        "color": "#8CED8C",
+        "isotopes": {
+            "deuterium": {
+                "name": "Deuterium",
+                "neutrons": 1,
+                "half-life": null
+            },
+            "tritium": {
+                "name": "Tritium",
+                "neutrons": 2,
+                "half-life": [
+                    12.31,
+                    "years"
+                ],
+                "decay": {
+                    "type": "beta",
+                    "product": "helium-3"
+                }
+            },
+            "4": {
+                "name": "Hydrogen-4",
+                "neutrons": 3,
+                "half-life": [
+                    0.0001,
+                    "milliseconds"
+                ],
+                "decay": {
+                    "type": "neutron",
+                    "product": "tritium"
+                }
+            }
+        }
+    },
+    "helium": {
+        "name": "Helium",
+        "protons": 2,
+        "neutrons": 2,
+        "electrons": 2,
+        "color": "#E6BEE6",
+        "isotopes": {
+            "3": {
+                "name": "Helium-3",
+                "neutrons": 1,
+                "half-life": null
+            },
+            "5": {
+                "name": "Helium-5",
+                "neutrons": 3,
+                "half-life": [
+                    0.0001,
+                    "milliseconds"
+                ],
+                "decay": {
+                    "type": "neutron",
+                    "product": "helium"
+                }
+            },
+            "6": {
+                "name": "Helium-6",
+                "neutrons": 4,
+                "half-life": [
+                    0.0001,
+                    "milliseconds"
+                ],
+                "decay": {
+                    "type": "beta",
+                    "product": "lithium-6"
+                }
+            }
+        }
+    },
+    "lithium": {
+        "name": "Lithium",
+        "protons": 3,
+        "neutrons": 4,
+        "electrons": 3,
+        "color": "#EBCE5E"
+    },
+    "beryllium": {
+        "name": "Beryllium",
+        "protons": 4,
+        "neutrons": 5,
+        "electrons": 4,
+        "color": "#F2F266"
+    },
+    "boron": {
+        "name": "Boron",
+        "protons": 5,
+        "neutrons": 6,
+        "electrons": 5,
+        "color": "#9EE6D5"
+    },
+    "carbon": {
+        "name": "Carbon",
+        "protons": 6,
+        "neutrons": 6,
+        "electrons": 6,
+        "color": "#8CED8C"
+    },
+    "nitrogen": {
+        "name": "Nitrogen",
+        "protons": 7,
+        "neutrons": 7,
+        "electrons": 7,
+        "color": "#8CED8C"
+    },
+    "oxygen": {
+        "name": "Oxygen",
+        "protons": 8,
+        "neutrons": 8,
+        "electrons": 8,
+        "color": "#8CED8C"
+    },
+    "fluorine": {
+        "name": "Fluorine",
+        "protons": 9,
+        "neutrons": 10,
+        "electrons": 9,
+        "color": "#8CED8C"
+    },
+    "neon": {
+        "name": "Neon",
+        "protons": 10,
+        "neutrons": 10,
+        "electrons": 10,
+        "color": "#E6BEE6"
+    },
+    "sodium": {
+        "name": "Sodium",
+        "protons": 11,
+        "neutrons": 12,
+        "electrons": 11,
+        "color": "#EBCE5E"
+    },
+    "magnesium": {
+        "name": "Magnesium",
+        "protons": 12,
+        "neutrons": 12,
+        "electrons": 12,
+        "color": "#F2F266"
+    },
+    "aluminum": {
+        "name": "Aluminum",
+        "protons": 13,
+        "neutrons": 14,
+        "electrons": 13,
+        "color": "#ADE0ED"
+    },
+    "silicon": {
+        "name": "Silicon",
+        "protons": 14,
+        "neutrons": 14,
+        "electrons": 14,
+        "color": "#9EE6D5"
+    },
+    "phosphorus": {
+        "name": "Phosphorus",
+        "protons": 15,
+        "neutrons": 16,
+        "electrons": 15,
+        "color": "#8CED8C"
+    },
+    "sulfur": {
+        "name": "Sulfur",
+        "protons": 16,
+        "neutrons": 16,
+        "electrons": 16,
+        "color": "#8CED8C"
+    },
+    "chlorine": {
+        "name": "Chlorine",
+        "protons": 17,
+        "neutrons": 18,
+        "electrons": 17,
+        "color": "#8CED8C"
+    },
+    "argon": {
+        "name": "Argon",
+        "protons": 18,
+        "neutrons": 22,
+        "electrons": 18,
+        "color": "#E6BEE6"
+    },
+    "potassium": {
+        "name": "Potassium",
+        "protons": 19,
+        "neutrons": 20,
+        "electrons": 19,
+        "color": "#EBCE5E"
+    },
+    "calcium": {
+        "name": "Calcium",
+        "protons": 20,
+        "neutrons": 20,
+        "electrons": 20,
+        "color": "#F2F266"
+    },
+    "scandium": {
+        "name": "Scandium",
+        "protons": 21,
+        "neutrons": 24,
+        "electrons": 21,
+        "color": "#FAC5B6"
+    },
+    "titanium": {
+        "name": "Titanium",
+        "protons": 22,
+        "neutrons": 26,
+        "electrons": 22,
+        "color": "#FAC5B6"
+    },
+    "vanadium": {
+        "name": "Vanadium",
+        "protons": 23,
+        "neutrons": 28,
+        "electrons": 23,
+        "color": "#FAC5B6"
+    },
+    "chromium": {
+        "name": "Chromium",
+        "protons": 24,
+        "neutrons": 28,
+        "electrons": 24,
+        "color": "#FAC5B6"
+    },
+    "manganese": {
+        "name": "Manganese",
+        "protons": 25,
+        "neutrons": 30,
+        "electrons": 25,
+        "color": "#FAC5B6"
+    },
+    "iron": {
+        "name": "Iron",
+        "protons": 26,
+        "neutrons": 30,
+        "electrons": 26,
+        "color": "#FAC5B6"
+    },
+    "cobalt": {
+        "name": "Cobalt",
+        "protons": 27,
+        "neutrons": 32,
+        "electrons": 27,
+        "color": "#FAC5B6"
+    },
+    "nickel": {
+        "name": "Nickel",
+        "protons": 28,
+        "neutrons": 31,
+        "electrons": 28,
+        "color": "#FAC5B6"
+    },
+    "copper": {
+        "name": "Copper",
+        "protons": 29,
+        "neutrons": 35,
+        "electrons": 29,
+        "color": "#FAC5B6"
+    },
+    "zinc": {
+        "name": "Zinc",
+        "protons": 30,
+        "neutrons": 35,
+        "electrons": 30,
+        "color": "#FAC5B6"
+    },
+    "gallium": {
+        "name": "Gallium",
+        "protons": 31,
+        "neutrons": 39,
+        "electrons": 31,
+        "color": "#ADE0ED"
+    },
+    "germanium": {
+        "name": "Germanium",
+        "protons": 32,
+        "neutrons": 41,
+        "electrons": 32,
+        "color": "#9EE6D5"
+    },
+    "arsenic": {
+        "name": "Arsenic",
+        "protons": 33,
+        "neutrons": 42,
+        "electrons": 33,
+        "color": "#9EE6D5"
+    },
+    "selenium": {
+        "name": "Selenium",
+        "protons": 34,
+        "neutrons": 45,
+        "electrons": 34,
+        "color": "#8CED8C"
+    },
+    "bromine": {
+        "name": "Bromine",
+        "protons": 35,
+        "neutrons": 45,
+        "electrons": 35,
+        "color": "#8CED8C"
+    },
+    "krypton": {
+        "name": "Krypton",
+        "protons": 36,
+        "neutrons": 48,
+        "electrons": 36,
+        "color": "#E6BEE6"
+    },
+    "rubidium": {
+        "name": "Rubidium",
+        "protons": 37,
+        "neutrons": 48,
+        "electrons": 37,
+        "color": "#EBCE5E"
+    },
+    "strontium": {
+        "name": "Strontium",
+        "protons": 38,
+        "neutrons": 50,
+        "electrons": 38,
+        "color": "#F2F266"
+    },
+    "yttrium": {
+        "name": "Yttrium",
+        "protons": 39,
+        "neutrons": 50,
+        "electrons": 39,
+        "color": "#FAC5B6"
+    },
+    "zirconium": {
+        "name": "Zirconium",
+        "protons": 40,
+        "neutrons": 51,
+        "electrons": 40,
+        "color": "#FAC5B6"
+    },
+    "niobium": {
+        "name": "Niobium",
+        "protons": 41,
+        "neutrons": 52,
+        "electrons": 41,
+        "color": "#FAC5B6"
+    },
+    "molybdenum": {
+        "name": "Molybdenum",
+        "protons": 42,
+        "neutrons": 54,
+        "electrons": 42,
+        "color": "#FAC5B6"
+    },
+    "technetium": {
+        "name": "Technetium",
+        "protons": 43,
+        "neutrons": 55,
+        "electrons": 43,
+        "color": "#FAC5B6"
+    },
+    "ruthenium": {
+        "name": "Ruthenium",
+        "protons": 44,
+        "neutrons": 57,
+        "electrons": 44,
+        "color": "#FAC5B6"
+    },
+    "rhodium": {
+        "name": "Rhodium",
+        "protons": 45,
+        "neutrons": 58,
+        "electrons": 45,
+        "color": "#FAC5B6"
+    },
+    "palladium": {
+        "name": "Palladium",
+        "protons": 46,
+        "neutrons": 60,
+        "electrons": 46,
+        "color": "#FAC5B6"
+    },
+    "silver": {
+        "name": "Silver",
+        "protons": 47,
+        "neutrons": 61,
+        "electrons": 47,
+        "color": "#FAC5B6"
+    },
+    "cadmium": {
+        "name": "Cadmium",
+        "protons": 48,
+        "neutrons": 64,
+        "electrons": 48,
+        "color": "#FAC5B6"
+    },
+    "indium": {
+        "name": "Indium",
+        "protons": 49,
+        "neutrons": 66,
+        "electrons": 49,
+        "color": "#ADE0ED"
+    },
+    "tin": {
+        "name": "Tin",
+        "protons": 50,
+        "neutrons": 69,
+        "electrons": 50,
+        "color": "#ADE0ED"
+    },
+    "antimony": {
+        "name": "Antimony",
+        "protons": 51,
+        "neutrons": 71,
+        "electrons": 51,
+        "color": "#9EE6D5"
+    },
+    "tellurium": {
+        "name": "Tellurium",
+        "protons": 52,
+        "neutrons": 76,
+        "electrons": 52,
+        "color": "#9EE6D5"
+    },
+    "iodine": {
+        "name": "Iodine",
+        "protons": 53,
+        "neutrons": 74,
+        "electrons": 53,
+        "color": "#8CED8C"
+    },
+    "xenon": {
+        "name": "Xenon",
+        "protons": 54,
+        "neutrons": 77,
+        "electrons": 54,
+        "color": "#E6BEE6"
+    },
+    "caesium": {
+        "name": "Caesium",
+        "protons": 55,
+        "neutrons": 78,
+        "electrons": 55,
+        "color": "#EBCE5E"
+    },
+    "barium": {
+        "name": "Barium",
+        "protons": 56,
+        "neutrons": 81,
+        "electrons": 56,
+        "color": "#F2F266"
+    },
+    "lanthanum": {
+        "name": "Lanthanum",
+        "protons": 57,
+        "neutrons": 82,
+        "electrons": 57,
+        "color": "#E8D19B"
+    },
+    "cerium": {
+        "name": "Cerium",
+        "protons": 58,
+        "neutrons": 82,
+        "electrons": 58,
+        "color": "#E8D19B"
+    },
+    "praseodymium": {
+        "name": "Praseodymium",
+        "protons": 59,
+        "neutrons": 82,
+        "electrons": 59,
+        "color": "#E8D19B"
+    },
+    "neodymium": {
+        "name": "Neodymium",
+        "protons": 60,
+        "neutrons": 84,
+        "electrons": 60,
+        "color": "#E8D19B"
+    },
+    "promethium": {
+        "name": "Promethium",
+        "protons": 61,
+        "neutrons": 84,
+        "electrons": 61,
+        "color": "#E8D19B"
+    },
+    "samarium": {
+        "name": "Samarium",
+        "protons": 62,
+        "neutrons": 88,
+        "electrons": 62,
+        "color": "#E8D19B"
+    },
+    "europium": {
+        "name": "Europium",
+        "protons": 63,
+        "neutrons": 89,
+        "electrons": 63,
+        "color": "#E8D19B"
+    },
+    "gadolinium": {
+        "name": "Gadolinium",
+        "protons": 64,
+        "neutrons": 93,
+        "electrons": 64,
+        "color": "#E8D19B"
+    },
+    "terbium": {
+        "name": "Terbium",
+        "protons": 65,
+        "neutrons": 94,
+        "electrons": 65,
+        "color": "#E8D19B"
+    },
+    "dysprosium": {
+        "name": "Dysprosium",
+        "protons": 66,
+        "neutrons": 97,
+        "electrons": 66,
+        "color": "#E8D19B"
+    },
+    "holmium": {
+        "name": "Holmium",
+        "protons": 67,
+        "neutrons": 98,
+        "electrons": 67,
+        "color": "#E8D19B"
+    },
+    "erbium": {
+        "name": "Erbium",
+        "protons": 68,
+        "neutrons": 99,
+        "electrons": 68,
+        "color": "#E8D19B"
+    },
+    "thulium": {
+        "name": "Thulium",
+        "protons": 69,
+        "neutrons": 100,
+        "electrons": 69,
+        "color": "#E8D19B"
+    },
+    "ytterbium": {
+        "name": "Ytterbium",
+        "protons": 70,
+        "neutrons": 103,
+        "electrons": 70,
+        "color": "#E8D19B"
+    },
+    "lutetium": {
+        "name": "Lutetium",
+        "protons": 71,
+        "neutrons": 103,
+        "electrons": 71,
+        "color": "#E8D19B"
+    },
+    "hafnium": {
+        "name": "Hafnium",
+        "protons": 72,
+        "neutrons": 106,
+        "electrons": 72,
+        "color": "#FAC5B6"
+    },
+    "tantalum": {
+        "name": "Tantalum",
+        "protons": 73,
+        "neutrons": 108,
+        "electrons": 73,
+        "color": "#FAC5B6"
+    },
+    "tungsten": {
+        "name": "Tungsten",
+        "protons": 74,
+        "neutrons": 110,
+        "electrons": 74,
+        "color": "#FAC5B6"
+    },
+    "rhenium": {
+        "name": "Rhenium",
+        "protons": 75,
+        "neutrons": 111,
+        "electrons": 75,
+        "color": "#FAC5B6"
+    },
+    "osmium": {
+        "name": "Osmium",
+        "protons": 76,
+        "neutrons": 114,
+        "electrons": 76,
+        "color": "#FAC5B6"
+    },
+    "iridium": {
+        "name": "Iridium",
+        "protons": 77,
+        "neutrons": 115,
+        "electrons": 77,
+        "color": "#FAC5B6"
+    },
+    "platinum": {
+        "name": "Platinum",
+        "protons": 78,
+        "neutrons": 117,
+        "electrons": 78,
+        "color": "#FAC5B6"
+    },
+    "gold": {
+        "name": "Gold",
+        "protons": 79,
+        "neutrons": 118,
+        "electrons": 79,
+        "color": "#FAC5B6"
+    },
+    "mercury": {
+        "name": "Mercury",
+        "protons": 80,
+        "neutrons": 121,
+        "electrons": 80,
+        "color": "#FAC5B6"
+    },
+    "thallium": {
+        "name": "Thallium",
+        "protons": 81,
+        "neutrons": 123,
+        "electrons": 81,
+        "color": "#ADE0ED"
+    },
+    "lead": {
+        "name": "Lead",
+        "protons": 82,
+        "neutrons": 125,
+        "electrons": 82,
+        "color": "#ADE0ED"
+    },
+    "bismuth": {
+        "name": "Bismuth",
+        "protons": 83,
+        "neutrons": 126,
+        "electrons": 83,
+        "color": "#9EE6D5"
+    }
+}
